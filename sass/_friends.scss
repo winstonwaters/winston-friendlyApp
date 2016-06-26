@@ -1,0 +1,44 @@
+#currentFriends {
+  color: rgb(255, 255, 255);
+}
+
+
+
+#friendList {
+  font-weight: 500;
+  padding: 2%;
+  display: inline-block;
+  float: right;
+  width: 70%;
+  background-color: rgb(230, 230, 230);
+}
+
+
+
+
+#potentialFriends {
+  background-color: rgb(140, 140, 140);
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding: 1rem;
+
+}
+
+  .friends {
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: middle;
+      margin-bottom: 8%;
+      margin-top: 4%;
+      button {
+        color: rgb(140, 140, 140);
+        padding: 1%;
+        border-radius: 3px;
+        background-color: white;
+        border-style: none;
+      }
+      img {
+        min-width: 110px;
+      }
+  }

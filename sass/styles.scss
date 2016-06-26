@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Univers;
+    src: url("./fonts/Univers/UniversLStd-Light.otf");
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url("/Users/winstonwaters/winston-app/fonts/CenturyGothic");
+}
+
+body {
+  font-family: Univers;
+  font-weight:light;
+}
+
+
+@import "nav";
+@import "friends";

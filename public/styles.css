@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Univers;
+  src: url("./fonts/Univers/UniversLStd-Light.otf"); }
+
+@font-face {
+  font-family: CenturyGothic;
+  src: url("/Users/winstonwaters/winston-app/fonts/CenturyGothic"); }
+
+body {
+  font-family: Univers;
+  font-weight: light; }
+
+@font-face {
+  font-family: Airplane;
+  src: url("./fonts/Airplane/Airplane.ttf"); }
+
+@font-face {
+  font-family: Univers;
+  src: url("./fonts/Univers/UniversLStd-Light.otf"); }
+
+.navbar {
+  background-color: #5d124f; }
+
+.navbar-nav {
+  float: right; }
+
+.navbar-default .navbar-nav li a {
+  font-family: Univers;
+  padding-top: 2.5rem;
+  color: #fffefe; }
+
+.navbar-default .navbar-nav li a:hover {
+  font-family: Univers;
+  color: white;
+  font-weight: 600; }
+
+.friendlyApp {
+  display: inline-block;
+  color: #fffefe;
+  float: left;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center; }
+  .friendlyApp h4 {
+    font-family: Univers;
+    font-size: 2rem;
+    padding: 0; }
+
+#currentFriends {
+  color: white; }
+
+#friendList {
+  font-weight: 500;
+  padding: 2%;
+  display: inline-block;
+  float: right;
+  width: 70%;
+  background-color: #e6e6e6; }
+
+#potentialFriends {
+  background-color: #8c8c8c;
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding: 1rem; }
+
+.friends {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 8%;
+  margin-top: 4%; }
+  .friends button {
+    color: #8c8c8c;
+    padding: 1%;
+    border-radius: 3px;
+    background-color: white;
+    border-style: none; }
+  .friends img {
+    min-width: 110px; }

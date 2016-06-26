@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Airplane;
+    src: url("./fonts/Airplane/Airplane.ttf");
+}
+@font-face {
+    font-family: Univers;
+    src: url("./fonts/Univers/UniversLStd-Light.otf");
+}
+
+
+
+.navbar {
+  background-color: rgb(93, 018, 79);
+}
+
+.navbar-nav {
+    float: right;
+}
+
+
+.navbar-default .navbar-nav {
+    li a {
+    font-family: Univers;
+    padding-top: 2.5rem;
+    color: #fffefe;
+  }
+}
+
+.navbar-default .navbar-nav {
+    li a:hover {
+    font-family: Univers;
+    color: white;
+    font-weight: 600;
+  }
+}
+
+.friendlyApp {
+  display: inline-block;
+  color:#fffefe;
+  float: left;
+  margin: 0 auto;;
+  padding:1em;
+  text-align: center;
+  h4 {
+    font-family: Univers;
+    font-size: 2rem;
+    padding: 0;
+  }
+}
